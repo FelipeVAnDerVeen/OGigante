@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Stylecontato.css">
+    <title>Contato O Gigante Eletrônico</title>
+</head>
+<body>
+
+    <header>
+        <div class="caixa">
+            <h1></h1>
+            <nav>
+                <ul>
+                    <li><a href="Index.html">HOME</a></li>
+                    <li><a href="Produtos.html">PRODUTOS</a></li>
+                    <li><a href="Contato.html">CONTATO</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <img id="banner" src="Imagens/Gigante.jpg" class="fotocomeco" alt =" Imagem principal do O Gigante Eletrônico">
+
+    <main>
+        <h2 class="titulo-principal-produtos">Entre em contato</h2>
+        <form action="#" method="post">
+            <fieldset>
+                <legend>Dados Pessoais</legend>
+
+                <label for="NomeSobrenome">Nome e Sobrenome</label>
+                <input type="text" name="nome" id="nomesobreno" class="input-padrao" required placeholder="Seu nome Completo:">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" class="input-padrao" required placeholder="seuemail@dominio.com">
+                <label for="telefone">Telefone</label>
+                <input type="tel" id="telefone" name="telefone" class="input-padrao" required placeholder="(xx) xxxxx-xxxx"><br>
+            </fieldset>
+
+            <fieldset>
+                <legend>Mensagem</legend>
+
+                <label for="mensagem">Como podemos ajudar?</label>
+                <textarea cols="70" rows="8" id="mensagem" name="mensagem" class="input-padrao" required placeholder="Descreva como podemos ajuda-lo....."></textarea>
+            </fieldset>
+
+            <fieldset>
+                <legend>Como prefere nosso contato?</legend>
+
+                <label for="radio-label">
+                    <input type="radio" name="contato" value="email" id="radio-email">
+                    <span class="radio-custom"></span>
+                    Email
+                </label>
+
+                <label for="radio-label">
+                    <input type="radio" name="contato" value="telefone" id="radio-telefone">
+                    <span class="radio-custom"></span>
+                    Telefone
+                </label>
+
+                <label for="radio-label">
+                    <input type="radio" name="contato" value="whatsapp" id="radio-whatsapp">
+                    <span class="radio-custom"></span>
+                    WhatsApp
+                </label>
+            </fieldset>
+
+            <fieldset>
+                <legend>Prederência de horário</legend>
+
+                <label for="horario">Qual horário prefere ser atendido?</label>
+                <select name="horario" id="horario" class="input-padrao">
+                    <option value="">Selecione um horário</option>
+                    <option value="manha">Manhã (8h ás 12h)</option>
+                    <option value="tarde">Tarde (12h ás 18h)</option>
+                    <option value="noite">Noite (18h ás 22h)</option>
+                    <option value="qualquer">Qualquer horário </option>
+                </select>
+            </fieldset>
+
+            <label class="chackbox-label">
+                <input type="checkbox" name="newsletter" value="SIM">
+                <span class="checkbox-custom"></span>
+                Gostaria de receber nossas novidade por Email?
+            </label>
+
+            <input type="submit" value="Enviar Mensagem" class="enviar">
+        </form>
+
+        <section class="informacoes-contato">
+            <h3>Outras formas de cotato</h3>
+
+            <div class="info-grid">
+                <div class="info-item">
+                    <h4>Telefones</h4>
+                    <p>Fixo: (41) 3333-4444<br>
+                    WhatsApp: (41) 9999-8888<br>
+                    Email: contato@gigante.com</p>
+                </div>
+            </div>
+
+            <table class="horarios">
+                <caption>Horários de Funcionamento</caption>
+                <thead>
+                    <tr>
+                        <th>Dia da Semana</th>
+                        <th>Horário</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Segunda a Sexta</td>
+                        <td>8h ás 18h</td>
+                    </tr>
+                    <tr>
+                        <td>Sábado</td>
+                        <td>8h ás 14h</td>
+                    </tr>
+                    <tr>
+                        <td>Domingo</td>
+                        <td>Fechado</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+    </main>
+
+    <footer>
+        <img src="Imagens/Gigante.jpg" alt="">
+        <p class="copyright">&copy: copyright O Gigante Eletrônico - 2025</p>
+    </footer>
+</body>
+</html>

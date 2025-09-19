@@ -1,0 +1,215 @@
+body{
+    background-image: url(Imagens/baseaeria.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: rgba(255, 255, 255, 0.30);
+    background-blend-mode: lighten;
+}
+
+
+/* Cabeçalho */
+.titulo-principal {
+    font-size: 2.5em;
+    color: #29037b;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 50px;
+    text-align: center;
+}
+
+/* Banner principal */
+#banner{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+/* Seção principal */
+.principal {
+    background: url(Imagens/kaermorhen.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.titulo-centralizado {
+    font-size: 50px;
+    color: #000000;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.principal p {
+    font-size: 1.2em;
+    margin: 15px 0; 
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    color: #ffffff;
+}
+.principal .localizacao{
+    font-size: 1.2em;
+    margin: 15px 0; 
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    color: black;
+    font-size: 50px;
+}
+
+/* Parágrafo da missão com destaque */
+#missao {
+    font-size: 1.4em !important;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    border-left: 5px solid #007bff;
+    margin: 30px auto !important;
+}
+
+#missao em strong {
+    color: #007bff;
+    font-size: 1.1em;
+}
+
+/* Seção de benefícios */
+.beneficios {
+    padding: 50px 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 40px;
+}
+
+.beneficios h3 {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+/* Lista de benefícios */
+.beneficios ul {
+    flex: 1;
+    min-width: 300px;
+    max-width: 400px;
+}
+
+.itens {
+    background: #10467d;
+    margin: 15px 0;
+    padding: 15px;
+    border-radius: 8px;
+    border-left: 4px solid #a11111;
+    font-size: 1.1em;
+    transition: all 0.3s ease;
+}
+
+.itens:hover {
+    background: #551504;
+    color: white;
+    transform: translateX(10px);
+}
+
+/* Imagem dos benefícios */
+.imagembeneficios {
+    flex: 1;
+    min-width: 300px;
+    max-width: 500px;
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(52, 2, 101, 0.1);
+}
+
+/* Responsividade básica */
+@media (max-width: 768px) {
+    .titulo-principal {
+        font-size: 1.8em;
+    }
+
+    .beneficios {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .principal p,
+    #missao {
+        font-size: 1em !important;
+    }
+}
+
+
+.caixa {
+    position: relative;
+    width: 650px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+    gap: 30px;
+    list-style: none; /* Remove os marcadores padrão da lista */
+    margin: 0;
+    padding: 0;
+    background-color: #333;
+}
+
+nav a {
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 35px;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 25px;
+    transition: all 0.3s ease;
+}
+
+nav a:hover {
+    color: blue; /* muda a cor ao passar o mouse */
+}
+
+
+
+footer {
+    text-align: center;
+    padding: 40px 0;
+    margin-top: 50px;
+}
+
+footer img {
+    max-height: 60px;
+    width: auto;
+    margin-bottom: 20px;
+}
+
+.copyright {
+    color: #ffffff;
+    font-size: 14px;
+    margin: 0;
+}
+
+.fotocomeco{
+    max-height: 100px;
+    width: auto;
+    margin-bottom: 20px;
+    text-align: center;
+    padding: 40px 0;
+    margin-top: 50px;
+    color: #ffffff;
+    font-size: 14px;
+    margin: 0;
+}
+
