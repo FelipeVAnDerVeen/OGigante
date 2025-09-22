@@ -1,11 +1,19 @@
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    margin: 0; /* É uma boa prática resetar a margem padrão do body */
+}
+
+
 body{
     background-image: url(Imagens/baseaeria.jpg);
     background-size: cover;
-    background-position: center;
+    background-position: relative;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-color: rgba(255, 255, 255, 0.30);
     background-blend-mode: lighten;
+    height: 700px;
 }
 
 
@@ -42,7 +50,7 @@ body{
 }
 
 .titulo-centralizado {
-    font-size: 50px;
+    font-size: 3.5em;
     color: #000000;
     margin-bottom: 20px;
     font-weight: bold;
@@ -130,56 +138,20 @@ body{
     box-shadow: 0 4px 15px rgba(52, 2, 101, 0.1);
 }
 
-/* Responsividade básica */
-@media (max-width: 768px) {
-    .titulo-principal {
-        font-size: 1.8em;
-    }
 
-    .beneficios {
-        flex-direction: column;
-        text-align: center;
-    }
-
-    .principal p,
-    #missao {
-        font-size: 1em !important;
-    }
-}
 
 
 .caixa {
     position: relative;
-    width: 650px;
+    width: 600px;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 20px;
 }
 
-nav ul {
-    display: flex;
-    gap: 30px;
-    list-style: none; /* Remove os marcadores padrão da lista */
-    margin: 0;
-    padding: 0;
-    background-color: #333;
-}
 
-nav a {
-    text-transform: uppercase;
-    color: #ffffff;
-    font-weight: bold;
-    font-size: 35px;
-    text-decoration: none;
-    padding: 10px 20px;
-    border-radius: 25px;
-    transition: all 0.3s ease;
-}
-
-nav a:hover {
-    color: blue; /* muda a cor ao passar o mouse */
-}
 
 
 
@@ -213,3 +185,116 @@ footer img {
     margin: 0;
 }
 
+
+.maps {
+    width: 2000px;
+    height: 400px;
+    max-width: 90%;
+    max-height: 80%;
+}
+
+
+
+
+
+
+
+
+
+
+nav ul {
+    display: flex;
+    gap: 30px;
+    list-style: none; /* Remove os marcadores padrão da lista */
+    margin: 0;
+    padding: 0;
+    background-color: #333;
+}
+
+nav a {
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 18px;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 25px;
+    transition: all 0.3s ease;
+}
+
+nav a {
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 35px;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 25px;
+    transition: all 0.3s ease;
+}
+
+nav a:hover {
+    color: blue; /* muda a cor ao passar o mouse */
+}
+
+
+
+
+
+
+
+
+/* Responsividade básica 
+@media (max-width: 768px) {
+    .titulo-principal {
+        font-size: 1.8em;
+    }
+
+    .beneficios {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .principal p,
+    #missao {
+        font-size: 1em !important;
+    }
+}*/
+@media (max-width: 940px) {
+    .titulo-centralizado {
+    font-size: 1.5em;
+}
+    .caixa, main {
+        width: 90%;
+        padding: 20px;
+    }
+
+    .caixa {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    nav ul {
+        justify-content: center;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .titulo-centralizado {
+    font-size: 1.5em;
+}
+    .titulo-principal {
+        font-size: 1em;
+    }
+
+    nav ul {
+        flex-wrap: wrap;
+        gap: 15px;
+    }
+
+    nav a {
+        font-size: 16px;
+        padding: 8px 15px;
+    }
+}

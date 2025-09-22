@@ -266,28 +266,7 @@ form label {
  * RESPONSIVIDADE
  * ========================================
  */
-@media (max-width: 768px) {
-    form,
-    .informacoes-contato {
-        padding: 20px;
-        margin: 20px 0;
-    }
 
-    .input-padrao {
-        padding: 10px 15px;
-    }
-
-    .info-grid {
-        grid-template-columns: 1fr;
-        gap: 20px;
-    }
-
-    .horarios th,
-    .horarios td {
-        padding: 10px 15px;
-        font-size: 0.9em;
-    }
-}
 
 .copyright {
     color: #ffffff;
@@ -363,6 +342,70 @@ nav a:hover {
 }
 
 
+
+
+
+
+
+
+
+
 body{
     background: linear-gradient(135deg, #01040f 0%, #012e2c 100%);
+}
+
+
+
+
+
+
+
+
+@media (max-width: 940px) {
+    .caixa, main {
+        width: 90%;
+        padding: 20px;
+    }
+
+    .caixa {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    nav ul {
+        justify-content: center;
+    }
+}
+
+@media (max-width: 768px) {
+    form,
+    .informacoes-contato {
+        padding: 20px;
+        margin: 20px 0;
+    }
+
+    .input-padrao {
+        padding: 10px 15px;
+    }
+
+    .info-grid {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+    .horarios th,
+    .horarios td {
+        padding: 10px 15px;
+        font-size: 0.9em;
+    }
+
+        nav ul {
+        flex-wrap: wrap;
+        gap: 15px;
+    }
+
+    nav a {
+        font-size: 16px;
+        padding: 8px 15px;
+    }
 }

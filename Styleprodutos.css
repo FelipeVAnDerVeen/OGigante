@@ -36,40 +36,7 @@ header h1 img {
 }
 
 /* Estilos da navegação (menu) */
-nav ul {
-    display: flex;
-    gap: 30px;
-    list-style: none; /* Remove os marcadores padrão da lista */
-    margin: 0;
-    padding: 0;
-    background-color: #333;
-}
 
-nav a {
-    text-transform: uppercase;
-    color: #ffffff;
-    font-weight: bold;
-    font-size: 18px;
-    text-decoration: none;
-    padding: 10px 20px;
-    border-radius: 25px;
-    transition: all 0.3s ease;
-}
-
-nav a {
-    text-transform: uppercase;
-    color: #ffffff;
-    font-weight: bold;
-    font-size: 35px;
-    text-decoration: none;
-    padding: 10px 20px;
-    border-radius: 25px;
-    transition: all 0.3s ease;
-}
-
-nav a:hover {
-    color: blue; /* muda a cor ao passar o mouse */
-}
 
 
 
@@ -179,6 +146,71 @@ footer img {
     margin: 0;
 }
 
+
+
+body{
+    background-image: url(Imagens/days-gone-backgroundjpg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: rgba(255, 255, 255, 0.30);
+    background-blend-mode: lighten;
+}
+
+
+
+
+
+
+
+nav ul {
+    display: flex;
+    gap: 30px;
+    list-style: none; /* Remove os marcadores padrão da lista */
+    margin: 0;
+    padding: 0;
+    background-color: #333;
+}
+
+nav a {
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 18px;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 25px;
+    transition: all 0.3s ease;
+}
+
+nav a {
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 35px;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 25px;
+    transition: all 0.3s ease;
+}
+
+nav a:hover {
+    color: blue; /* muda a cor ao passar o mouse */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * ========================================
  * RESPONSIVIDADE
@@ -215,18 +247,3 @@ footer img {
         padding: 8px 15px;
     }
 }
-
-body{
-    background-image: url(Imagens/days-gone-backgroundjpg.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-color: rgba(255, 255, 255, 0.30);
-    background-blend-mode: lighten;
-}
-
-
-
-
-
