@@ -59,6 +59,12 @@ form label {
     font-style: italic;
 }
 
+.titulo-principal-produtos{
+    color: white;
+    text-align: center;
+    font-size: 2.5em;
+}
+
 /*
  * ========================================
  * COMPONENTES CUSTOMIZADOS
@@ -325,7 +331,7 @@ nav a:hover {
 
 .caixa {
     position: relative;
-    width: 650px;
+    width: 50%;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;

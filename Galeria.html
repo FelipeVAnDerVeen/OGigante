@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galeria - [SEU NEGÓCIO]</title>
+    <link rel="stylesheet" href="Stylegaleria.css">
+    <link rel="icon" href="Imagens/GiganteReal2.jpg">
+</head>
+<body>
+    <header>
+        <div class="caixa">
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="Produtos.html">Produtos</a></li>
+                    <li><a href="Contato.html">Contato</a></li>
+                    <li><a href="Galeria.html">Galeria</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <h2 class="titulo-principal-produtos">Nossa Galeria</h2>
+        
+        <!-- Filtros da Galeria -->
+        <div class="filtros-galeria">
+            <button class="filtro-btn ativo" data-filtro="todos">Todos</button>
+            <button class="filtro-btn" data-filtro="categoria1">Jogos</button>
+            <button class="filtro-btn" data-filtro="categoria2">Assistência/Jogos</button>
+            <button class="filtro-btn" data-filtro="categoria3">Lan House</button>
+        </div>
+
+        <!-- Grid de Imagens -->
+        <div class="galeria-grid">
+            <!-- Item 1 -->
+            <div class="galeria-item" data-categoria="categoria2">
+                <img src="Imagens/controleps2.jpg" alt="[DESCRIÇÃO IMAGEM 2]">
+                <div class="galeria-overlay">
+                    <h3>Controles</h3>
+                    <p></p>
+                    <button class="btn-ver-mais">Ver Detalhes</button>
+                </div>
+            </div>
+
+            <!-- Item 2 -->
+            <div class="galeria-item" data-categoria="categoria1">
+                <img src="Imagens/Jogos3.png" alt="[DESCRIÇÃO IMAGEM 1]">
+                <div class="galeria-overlay">
+                    <h3>Trocamos Jogos</h3>
+                    <p></p>
+                    <button class="btn-ver-mais">Ver Detalhes</button>
+                </div>
+            </div>
+
+            <!-- Item 3 -->
+            <div class="galeria-item galeria-item-grande" data-categoria="categoria1">
+                <img src="Imagens/Gta62.jpg" alt="[DESCRIÇÃO IMAGEM 3]">
+                <div class="galeria-overlay">
+                    <h3>GTA 6</h3>
+                    <p>Pré-Venda</p>
+                    <button class="btn-ver-mais">Ver Detalhes</button>
+                </div>
+            </div>
+
+            <!-- Item 4 -->
+            <div class="galeria-item" data-categoria="categoria2">
+                <img src="Imagens/giganteassistencia.png" alt="[DESCRIÇÃO IMAGEM 2]">
+                <div class="galeria-overlay">
+                    <h3>Assistência Técnica</h3>
+                    <p></p>
+                    <button class="btn-ver-mais">Ver Detalhes</button>
+                </div>
+            </div>
+
+            <!-- Item 5 -->
+            <div class="galeria-item" data-categoria="categoria3">
+                <img src="Imagens/Gigantejogando.png" alt="[DESCRIÇÃO IMAGEM 3]">
+                <div class="galeria-overlay">
+                    <h3>Lan House</h3>
+                    <p>Lan House com PS5 X-box e PCs</p>
+                    <button class="btn-ver-mais">Ver Detalhes</button>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- Modal/Lightbox -->
+        <div class="modal-galeria" id="modalGaleria">
+            <span class="fechar-modal">&times;</span>
+            <img class="modal-conteudo" id="modalImagem">
+            <div class="modal-caption" id="modalCaption"></div>
+            <div class="modal-navegacao">
+                <button class="nav-btn prev">❮ Anterior</button>
+                <button class="nav-btn next">Próximo ❯</button>
+            </div>
+        </div>
+
+        <!-- Seção de Estatísticas -->
+        <section class="estatisticas">
+            <h3>Nossos Números</h3>
+            <div class="stats-grid">
+                <div class="stat-item">
+                    <span class="stat-numero" data-target="150">0</span>
+                    <span class="stat-label">Projetos Realizados</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-numero" data-target="98">0</span>
+                    <span class="stat-label">Clientes Satisfeitos</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-numero" data-target="5">0</span>
+                    <span class="stat-label">Anos de Experiência</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-numero" data-target="24">0</span>
+                    <span class="stat-label">Prêmios Recebidos</span>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <img src="Imagens/Gigante.jpg" alt="Logo [SEU NEGÓCIO]">
+        <p class="copyright">&copy; Copyright [SEU NEGÓCIO] - 2024</p>
+    </footer>
+
+    <script src="Scriptgaleria.js"></script>
+
+</body>
