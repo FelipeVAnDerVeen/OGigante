@@ -39,7 +39,7 @@ function validarLogin() {
     mensagem.textContent = "✅ Login realizado com sucesso!";
     // redireciona após 1 segundo
     setTimeout(() => {
-      window.location.href =  "index.html";
+      window.location.href =  "home.html";
     }, 9.000);
     return false;
   } else {
