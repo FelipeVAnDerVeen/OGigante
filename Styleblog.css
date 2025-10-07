@@ -32,7 +32,7 @@
     font-size: 3.5em;
     margin-bottom: 20px;
     font-weight: bold;
-    text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
 }
 
 .hero-content p {
@@ -109,7 +109,7 @@
 
 .filtro-blog:hover {
     transform: translateY(-2px);
-    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
 }
 
 .filtro-blog.ativo {
@@ -140,14 +140,14 @@ main {
     background: white;
     border-radius: 20px;
     overflow: hidden;
-    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
     transition: all 0.3s ease;
     position: relative;
 }
 
 .artigo-destaque:hover {
     transform: translateY(-5px);
-    box-shadow: 0 20px 40px rgba(0,0,0,0.15);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
 }
 
 .artigo-destaque .artigo-imagem {
@@ -203,7 +203,8 @@ main {
     font-size: 0.8em;
 }
 
-.data, .tempo-leitura {
+.data,
+.tempo-leitura {
     color: #666;
     display: flex;
     align-items: center;
@@ -266,7 +267,7 @@ main {
     background: white;
     border-radius: 15px;
     overflow: hidden;
-    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
     transition: all 0.3s ease;
     display: flex;
     flex-direction: column;
@@ -274,7 +275,7 @@ main {
 
 .artigo-card:hover {
     transform: translateY(-3px);
-    box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
 }
 
 .artigo-card .artigo-imagem {
@@ -423,7 +424,7 @@ main {
 
 .newsletter-form button {
     padding: 15px 25px;
-    background: rgba(255,255,255,0.2);
+    background: rgba(255, 255, 255, 0.2);
     backdrop-filter: blur(10px);
     border: 2px solid white;
     border-radius: 0 25px 25px 0;
@@ -440,13 +441,27 @@ main {
 
 /* Animações */
 @keyframes fadeIn {
-    from { opacity: 0; transform: translateY(20px); }
-    to { opacity: 1; transform: translateY(0); }
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }
 
 @keyframes slideInUp {
-    from { opacity: 0; transform: translateY(30px); }
-    to { opacity: 1; transform: translateY(0); }
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }
 
 /* Responsividade */
@@ -456,63 +471,63 @@ main {
         padding: 20px 15px;
         gap: 30px;
     }
-    
+
     .hero-content h1 {
         font-size: 2.5em;
     }
-    
+
     .hero-content p {
         font-size: 1.1em;
     }
-    
+
     .blog-hero {
         padding: 60px 15px;
     }
-    
+
     .blog-controles {
         padding: 30px 15px;
     }
-    
+
     .search-container {
         margin-bottom: 20px;
     }
-    
+
     .filtros-blog {
         gap: 10px;
     }
-    
+
     .filtro-blog {
         padding: 8px 16px;
         font-size: 0.8em;
     }
-    
+
     .artigo-destaque .artigo-imagem {
         height: 200px;
     }
-    
+
     .artigo-destaque h2 {
         font-size: 1.5em;
     }
-    
+
     .artigo-conteudo {
         padding: 20px;
     }
-    
+
     .newsletter-form {
         flex-direction: column;
         gap: 15px;
     }
-    
+
     .newsletter-form input,
     .newsletter-form button {
         border-radius: 25px;
     }
-    
+
     .paginacao {
         flex-wrap: wrap;
         gap: 8px;
     }
-    
+
     .page-btn {
         padding: 8px 15px;
         font-size: 0.9em;
@@ -527,25 +542,25 @@ main {
     .hero-content h1 {
         font-size: 2em;
     }
-    
+
     .artigo-destaque .artigo-imagem {
         height: 160px;
     }
-    
+
     .artigo-card .artigo-imagem {
         height: 150px;
     }
-    
+
     .artigo-autor {
         flex-direction: column;
         text-align: center;
         gap: 10px;
     }
-    
+
     .newsletter-content h3 {
         font-size: 2em;
     }
-    
+
     .newsletter-content p {
         font-size: 1em;
     }
@@ -577,7 +592,8 @@ main {
 nav ul {
     display: flex;
     gap: 5px;
-    list-style: none; /* Remove os marcadores padrão da lista */
+    list-style: none;
+    /* Remove os marcadores padrão da lista */
     margin: 20px;
     padding: 0;
     background-color: #333;
@@ -606,10 +622,11 @@ nav a {
 }
 
 nav a:hover {
-    color: blue; /* muda a cor ao passar o mouse */
+    color: blue;
+    /* muda a cor ao passar o mouse */
 }
 
-#banner{
+#banner {
     display: block;
     justify-content: center;
     align-items: center;
@@ -617,7 +634,8 @@ nav a:hover {
     margin-right: auto;
 
 }
-.fotocomeco{
+
+.fotocomeco {
     max-height: 100px;
     width: auto;
     margin-bottom: 20px;
