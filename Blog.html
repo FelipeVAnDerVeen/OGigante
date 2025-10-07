@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog - O Gigante Eletrônico</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styleblog.css">
+    <link rel="icon" href="Imagens/GiganteReal2.jpg">
+    <link rel="stylesheet" href="StyleDark.css">
+</head>
+<body>
+    <header>
+        <div class="caixa">
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="produtos.html">Produtos</a></li>
+                    <li><a href="contato.html">Contato</a></li>
+                    <li><a href="galeria.html">Galeria</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <img id="banner" src="Imagens/Gigante.jpg" class="fotocomeco" alt =" Imagem principal do O Gigante Eletrônico">
+    <main>
+        <!-- Hero Section do Blog -->
+        <section class="blog-hero">
+            <div class="hero-content">
+                <h1>Nosso Blog</h1>
+                <p>Fique por dentro das novidades, dicas e tendências do nosso setor</p>
+            </div>
+        </section>
+
+        <!-- Barra de Pesquisa e Filtros -->
+        <section class="blog-controles">
+            <div class="search-container">
+                <input type="text" id="searchInput" placeholder="Pesquisar artigos..." class="search-input">
+                <button class="search-btn">🔍</button>
+            </div>
+            
+            <div class="filtros-blog">
+                <button class="filtro-blog ativo" data-categoria="todas">Todas</button>
+                <button class="filtro-blog" data-categoria="dicas">LANÇAMENTOS</button>
+                <button class="filtro-blog" data-categoria="novidades">HARDWARE</button>
+                <button class="filtro-blog" data-categoria="tutoriais">GAMES em Alta</button>
+            </div>
+        </section>
+
+        <!-- Grade de Artigos -->
+        <section class="blog-grid">
+            <!-- Artigo em Destaque -->
+            <article class="artigo-destaque" data-categoria="dicas">
+                <div class="artigo-imagem">
+                    <img src="Imagens/Gta62.jpg" alt="[TÍTULO ARTIGO 1]">
+                    <span class="artigo-tag">Em Destaque</span>
+                </div>
+                <div class="artigo-conteudo">
+                    <div class="artigo-meta">
+                        <span class="categoria">Lançamentos</span>
+                        <span class="data">15 Nov 2024</span>
+                        <span class="tempo-leitura">5 min</span>
+                    </div>
+                    <h2>GTA VI: O Retorno a Vice City</h2>
+                    <p>O anúncio de Grand Theft Auto VI (GTA VI) pela Rockstar Games causou um frenesi global,
+                         prometendo ser um dos lançamentos mais ambiciosos da história dos videogames. O jogo, 
+                         que se passa no estado fictício de Leonida, marca o aguardado retorno à icônica Vice City 
+                         — uma versão moderna e expandida da cidade inspirada em Miami que não era vista na série principal 
+                         desde GTA: Vice City e GTA: Vice City Stories. </p>
+
+                        <p>Ambientação e Personagens
+                        Os trailers oficiais revelaram que GTA VI focará em uma dupla de protagonistas: 
+                        Jason e Lucia. Lucia é notável por ser a primeira personagem feminina protagonista em um jogo 
+                        da série principal desde o início da era 3D. A história deles promete explorar a "parte mais sombria
+                         do lugar mais ensolarado da América", mergulhando em uma conspiração criminosa que se estende por todo o estado de Leonida.
+
+                        A ambientação de Vice City em GTA VI é um espetáculo à parte. 
+                        Os trailers mostram uma cidade vibrante e detalhada, repleta de referências à cultura do sul 
+                        da Flórida e com um toque de sátira social característico da Rockstar, recheada de personagens excêntricos 
+                        e situações inusitadas, muitas delas inspiradas em eventos reais e virais.</p>
+
+                        <p>Data de Lançamento e Plataformas
+                        Após uma enorme expectativa, a Rockstar Games 
+                        confirmou a data de lançamento oficial de GTA VI para 26 de maio de 2026.
+                         O jogo será lançado inicialmente para consoles de última geração: PlayStation 5
+                          e Xbox Series X|S. A versão para PC geralmente é lançada em uma data posterior, 
+                          seguindo o padrão de lançamentos anteriores da desenvolvedora.
+
+                        A espera é grande, e o jogo já acumula prêmios como "Jogo Mais Antecipado", 
+                        demonstrando a confiança dos fãs na capacidade da Rockstar de redefinir o gênero de mundo aberto, 
+                        como fez com seus títulos anteriores. A promessa é de um mapa vasto, jogabilidade refinada e uma narrativa envolvente, 
+                        mantendo a franquia no topo da indústria.</p>
+
+                        <p>Gráficos de Próxima Geração e Inovações de Jogabilidade
+                        GTA VI promete ser um divisor de águas em termos técnicos, 
+                        explorando ao máximo o potencial do hardware da PlayStation 5 e do Xbox Series X|S.
+
+                        Fidelidade Visual Inigualável: O jogo está sendo desenvolvido usando
+                         a mais recente iteração do motor Rockstar Advanced Game Engine (RAGE),
+                          que oferece iluminação, reflexos e densidade de partículas hiper-realistas.
+                           A qualidade da água, o clima dinâmico e os efeitos de ray tracing (traçado de raios) nos 
+                           trailers sugerem um salto visual massivo em relação ao GTA V.
+
+                        Física Aprimorada e Animacões: A Rockstar tem focado em melhorar a 
+                        física veicular e as animações dos personagens. Espera-se um sistema de 
+                        animação mais fluído e orgânico, especialmente nas interações entre Jason e 
+                        Lucia, e uma física de carros mais realista, mas ainda divertida.
+
+                        Evolução da Jogabilidade (Gameplay): Os novos protagonistas, Jason e Lucia, 
+                        devem introduzir mecânicas únicas. Especula-se que a interação e a troca entre os 
+                        dois personagens em missões será mais integrada e dinâmica do que a vista em GTA V, 
+                        possivelmente permitindo que as habilidades de cada um sejam cruciais para o sucesso das atividades criminosas no jogo.</p>
+
+                        <p>O Vasto Mundo de Leonida: Expansão e Detalhes
+                        O estado de Leonida, que abriga Vice City, é esperado para ser o maior 
+                        e mais denso mapa já criado pela Rockstar Games. Os vazamentos e trailers 
+                        indicam que o mundo do jogo não se limitará à área metropolitana de Vice City, 
+                        mas se estenderá por uma variedade de ambientes que simulam a diversidade da Flórida.
+
+                        Vice City em sua Totalidade: A cidade em si é muito maior do que
+                         a versão vista em 2002, apresentando bairros distintos, desde os 
+                         opulentos arranha-céus e praias de Ocean Drive até áreas mais rurais, pântanos (os famosos Everglades), e pequenas cidades costeiras.
+
+                        Regiões Adjacentes: Espera-se que o mapa inclua os Keys (ilhas
+                         e pontes que se estendem pelo mar) e até mesmo uma recriação de uma
+                          área de Port Gellhorn, indicando uma diversidade geográfica que encorajará a exploração.
+
+                        Interação e Imersão: A densidade de conteúdo é um foco central.
+                         O mapa será preenchido com mais edifícios interiores acessíveis 
+                         e um nível de detalhe sem precedentes para os NPCs (personagens não jogáveis) 
+                         e a vida selvagem, aumentando a imersão e a sensação de que o mundo reage ao jogador.</p>
+                    <div class="artigo-autor">
+                        <img src="Imagens/Gigante.jpg" alt="Autor">
+                        <div>
+                            <span class="autor-nome">Galator</span>
+                            <span class="autor-cargo">Jogador</span>
+                        </div>
+                    </div>
+                    <button class="btn-ler-mais" >Ler Mais</button>
+                </div>
+            </article>
+
+            <!-- Container dos Artigos Normais -->
+            <div class="artigos-container">
+                <!-- Artigo 2 -->
+                <article class="artigo-card" data-categoria="novidades">
+                    <div class="artigo-imagem">
+                        <img src="Imagens/controleps.jpg" alt="[TÍTULO ARTIGO 2]">
+                    </div>
+                    <div class="artigo-conteudo">
+                        <div class="artigo-meta">
+                            <span class="categoria">Hardware</span>
+                            <span class="data">10 Nov 2024</span>
+                            <span class="tempo-leitura">3 min</span>
+                        </div>
+                        <h3>Hardware em Promoção</h3>
+                        <p>Encontrar hardware de videogames em promoção é a melhor 
+                            oportunidade para turbinar seu setup ou montar uma nova máquina
+                             com excelente custo-benefício. O mercado de componentes está sempre em 
+                             constante renovação, o que frequentemente leva a quedas de preço em peças 
+                             poderosas da geração anterior, e os eventos sazonais de vendas (como a Black Friday ou o Dia do Consumidor) 
+                             são momentos cruciais para fazer grandes negócios.
+
+                        </p>
+                        <button class="btn-ler-mais">Ler Mais</button>
+                    </div>
+                </article>
+
+                <!-- Artigo 3 -->
+                <article class="artigo-card" data-categoria="tutoriais">
+                    <div class="artigo-imagem">
+                        <img src="Imagens/assassinsshadows.jpg" alt="[TÍTULO ARTIGO 3]">
+                    </div>
+                    <div class="artigo-conteudo">
+                        <div class="artigo-meta">
+                            <span class="categoria">Games em Alta</span>
+                            <span class="data">5 Nov 2025</span>
+                            <span class="tempo-leitura">7 min</span>
+                        </div>
+                        <h3>Assassin's Creed Shadows</h3>
+                        <p>Assassin's Creed Shadows é o mais recente título principal da
+                             aclamada franquia da Ubisoft, transportando os jogadores para o 
+                             tão esperado cenário do Japão Feudal durante o turbulento período Sengoku (século XVI).</p>
+                        <button class="btn-ler-mais">Ler Mais</button>
+                    </div>
+                </article>
+
+                <!-- Artigo 4 -->
+                <article class="artigo-card" data-categoria="dicas">
+                    <div class="artigo-imagem">
+                        <img src="Imagens/TheelderScrolls6.jpg" alt="[TÍTULO ARTIGO 4]">
+                    </div>
+                    <div class="artigo-conteudo">
+                        <div class="artigo-meta">
+                            <span class="categoria">Lançamentos</span>
+                            <span class="data">1 Nov 2025</span>
+                            <span class="tempo-leitura">4 min</span>
+                        </div>
+                        <h3>The Elder Scrols 6</h3>
+                        <p>The Elder Scrolls VI é a aguardada sequência do 
+                            aclamado RPG de mundo aberto The Elder Scrolls V: Skyrim. 
+                            Anunciado pela Bethesda Game Studios em 2018 com um breve teaser,
+                             o jogo carrega o peso de ser o próximo capítulo em uma das franquias de 
+                             fantasia mais importantes da história dos videogames.</p>
+                        <button class="btn-ler-mais">Ler Mais</button>
+                    </div>
+                </article>
+
+                <!-- Artigo 5 -->
+                <article class="artigo-card" data-categoria="novidades">
+                    <div class="artigo-imagem">
+                        <img src="Imagens/leilão.png" alt="[TÍTULO ARTIGO 5]">
+                    </div>
+                    <div class="artigo-conteudo">
+                        <div class="artigo-meta">
+                            <span class="categoria">Hardware</span>
+                            <span class="data">28 Out 2024</span>
+                            <span class="tempo-leitura">6 min</span>
+                        </div>
+                        <h3>Leilão Receita Federal</h3>
+                        <p>Receita Federal realiza leilão com PlayStation 5, notebooks e mais de 400 lotes</p>
+                        <button class="btn-ler-mais">Ler Mais</button>
+                    </div>
+                </article>
+
+                <!-- Artigo 6 -->
+                <article class="artigo-card" data-categoria="tutoriais">
+                    <div class="artigo-imagem">
+                        <img src="Imagens/battlefield-6-capa.jpg" alt="[TÍTULO ARTIGO 6]">
+                    </div>
+                    <div class="artigo-conteudo">
+                        <div class="artigo-meta">
+                            <span class="categoria">Games em Alta</span>
+                            <span class="data">25 Out 2024</span>
+                            <span class="tempo-leitura">8 min</span>
+                        </div>
+                        <h3>Battlefield 6</h3>
+                        <p>Battlefield 6 (nome provisório oficial) é o próximo título principal da série Battlefield,
+                             desenvolvido pelos Battlefield Studios (uma colaboração de estúdios da EA, incluindo a DICE) 
+                             e publicado pela Electronic Arts. O jogo marca um aguardado retorno da franquia a um cenário de guerra 
+                             moderna/contemporânea, abandonando a temática futurista de seu antecessor, Battlefield 2042.</p>
+                        <button class="btn-ler-mais">Ler Mais</button>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <!-- Paginação -->
+        <div class="paginacao">
+            <button class="page-btn" data-page="prev">← Anterior</button>
+            <button class="page-btn active" data-page="1">1</button>
+            <button class="page-btn" data-page="2">2</button>
+            <button class="page-btn" data-page="3">3</button>
+            <button class="page-btn" data-page="next">Próximo →</button>
+        </div>
+
+        <!-- Newsletter Signup -->
+        <section class="newsletter-section">
+            <div class="newsletter-content">
+                <h3>Assine Nossa Newsletter</h3>
+                <p>Receba os melhores artigos diretamente no seu email</p>
+                <form class="newsletter-form">
+                    <input type="email" placeholder="Seu melhor email" required>
+                    <button type="submit">Assinar</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <img src="imagens/logo-branco.png" alt="Logo [SEU NEGÓCIO]">
+        <p class="copyright">&copy; Copyright [SEU NEGÓCIO] - 2024</p>
+    </footer>
+
+    <script src="Scriptblog.js"></script>
+
+    <script src="ScriptDark.js"></script>
+</body>
+</html>

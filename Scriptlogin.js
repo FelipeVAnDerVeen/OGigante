@@ -48,4 +48,3 @@ function validarLogin() {
     return false;
   }
 }
-
