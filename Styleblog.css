@@ -579,7 +579,7 @@ main {
 
 .caixa {
     position: relative;
-    width: 48%;
+    width: 50%;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
@@ -645,4 +645,37 @@ nav a:hover {
     color: #ffffff;
     font-size: 14px;
     margin: 0;
+}
+
+
+@media (max-width: 940px) {
+    .caixa, main {
+        width: 90%;
+        padding: 20px;
+    }
+
+    .caixa {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    nav ul {
+        justify-content: center;
+    }
+}
+
+@media (max-width: 768px) {
+    .titulo-principal-produtos {
+        font-size: 2em;
+    }
+
+    nav ul {
+        flex-wrap: wrap;
+        gap: 15px;
+    }
+
+    nav a {
+        font-size: 16px;
+        padding: 8px 15px;
+    }
 }
